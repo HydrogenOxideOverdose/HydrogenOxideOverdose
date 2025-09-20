@@ -1,4 +1,8 @@
-<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        background-color: greenyellow;
+    }
+</style>
 
 
 <h1 align="center">Hi there, I'm fullstack junior developer looking for work
