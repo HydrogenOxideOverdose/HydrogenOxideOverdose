@@ -137,14 +137,7 @@
     </circle>
   </g>
   
-  <!-- Текст -->
-  <text x="400" y="520" text-anchor="middle" fill="white" font-family="Arial" font-size="28" font-weight="bold" opacity="0.9">
-    🍸 Русский Код 🍸
-  </text>
-  <text x="400" y="560" text-anchor="middle" fill="gold" font-family="Arial" font-size="16" opacity="0.8">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
-    Три рюмки за удачный коммит!
-  </text>
+
   
   <!-- Дополнительные анимированные блики -->
   <g fill="rgba(255,255,255,0.1)">
