@@ -1,9 +1,9 @@
-<details id="english" align="center">
+<details id="english">
 <summary><b>🇺🇸 English</b></summary>
 
-<h1>Hi there, I'm fullstack junior developer looking for work
+<h1  align="center">Hi there, I'm fullstack junior developer looking for work
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3>Computer science student from Russia 🇷🇺</h3>
+<h3  align="center">Computer science student from Russia 🇷🇺</h3>
 
 </details>
 
@@ -11,9 +11,9 @@
 
 <details align="center" id="русский"> <summary><b>🇷🇺 Русский</b></summary>
 
-<h1>Привет, я молодой фуллстак разработчик
+<h1 align="center">Привет, я молодой фуллстак разработчик
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3>Прохожу обучение в московском вузе, ищу работу</h3>
+<h3 align="center">Прохожу обучение в московском вузе, ищу работу</h3>
 
 </details>
 
