@@ -14,7 +14,7 @@
 <details align="center" id="русский"> <summary><b>🇷🇺 Русский</b></summary>
 
 
-![Background](rus-background.svg)
+
 
 
 
