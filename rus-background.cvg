@@ -1,0 +1,158 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Градиент для фона -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff007f;stop-opacity:0.8" />
+      <stop offset="30%" style="stop-color:#8b0000;stop-opacity:0.9" />
+      <stop offset="70%" style="stop-color:#4b0082;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Фильтр для стеклянного эффекта -->
+    <filter id="glassEffect" x="0" y="0" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset in="blur" dx="1" dy="1" result="offsetBlur"/>
+      <feSpecularLighting in="blur" surfaceScale="3" specularConstant="0.5" specularExponent="20" result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+    
+    <!-- Паттерн для анимированных помех -->
+    <pattern id="noisePattern" patternUnits="userSpaceOnUse" width="100" height="100" patternTransform="scale(0.5)">
+      <rect width="100" height="100" fill="rgba(0,0,0,0.1)"/>
+      <g stroke="rgba(255,255,255,0.1)" stroke-width="0.3">
+        <!-- Анимированные линии помех -->
+        <line x1="0" y1="0" x2="100" y2="100">
+          <animate attributeName="opacity" values="0;0.3;0" dur="2s" repeatCount="indefinite"/>
+        </line>
+        <line x1="100" y1="0" x2="0" y2="100">
+          <animate attributeName="opacity" values="0.2;0;0.2" dur="1.5s" repeatCount="indefinite"/>
+        </line>
+      </g>
+      <!-- Анимированные точки помех -->
+      <g fill="rgba(255,255,255,0.2)">
+        <circle cx="20" cy="20" r="0.5">
+          <animate attributeName="r" values="0.5;1;0.5" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="80" cy="40" r="0.7">
+          <animate attributeName="cx" values="80;75;80" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="50" cy="80" r="0.4">
+          <animate attributeName="opacity" values="0.1;0.4;0.1" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </pattern>
+  </defs>
+  
+  <!-- Фон с градиентом -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+  
+  <!-- Анимированные помехи поверх фона -->
+  <rect width="100%" height="100%" fill="url(#noisePattern)" opacity="0.4">
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Дополнительные анимированные элементы помех -->
+  <g stroke="rgba(255,255,255,0.15)" stroke-width="0.8">
+    <!-- Мерцающие линии -->
+    <line x1="50" y1="50" x2="750" y2="550">
+      <animate attributeName="stroke-opacity" values="0;0.2;0" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="100" y1="500" x2="700" y2="100">
+      <animate attributeName="stroke-opacity" values="0.1;0;0.1" dur="3.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="200" y1="80" x2="600" y2="520">
+      <animate attributeName="stroke-opacity" values="0;0.15;0" dur="5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Вытянутая бутылка водки (опущена ниже) -->
+  <g transform="translate(400, 180)" filter="url(#glassEffect)">
+    <!-- Основная часть бутылки -->
+    <path d="M -25 -150 L -20 60 L 20 60 L 25 -150 Z" fill="rgba(255,255,255,0.9)"/>
+    
+    <!-- Горлышко (теперь видно полностью) -->
+    <rect x="-12" y="-170" width="24" height="40" fill="rgba(255,255,255,0.95)" rx="4"/>
+    
+    <!-- Пробка -->
+    <rect x="-8" y="-180" width="16" height="10" fill="#8B4513" rx="2"/>
+    
+    <!-- Этикетка (уменьшенная надпись) -->
+    <rect x="-22" y="-50" width="44" height="40" fill="#8B0000" rx="3"/>
+    <text x="0" y="-25" text-anchor="middle" fill="gold" font-family="Arial" font-size="10" font-weight="bold">ВОДКА</text>
+    <text x="0" y="-10" text-anchor="middle" fill="white" font-family="Arial" font-size="8">40% VOL</text>
+    
+    <!-- Жидкость в бутылке -->
+    <path d="M -22 -10 L 22 -10 L 20 50 L -20 50 Z" fill="rgba(255,255,255,0.7)"/>
+    
+    <!-- Блеск на стекле -->
+    <path d="M -15 -120 L -5 -130 L 5 -110 Z" fill="rgba(255,255,255,0.3)"/>
+    <path d="M 10 -80 L 15 -90 L 20 -70 Z" fill="rgba(255,255,255,0.2)"/>
+  </g>
+  
+  <!-- Три рюмки -->
+  <!-- Рюмка 1 -->
+  <g transform="translate(250, 400)" filter="url(#glassEffect)">
+    <path d="M -20 0 L -15 -40 L 15 -40 L 20 0 Z" fill="rgba(255,255,255,0.8)"/>
+    <path d="M -15 -35 L 15 -35 L 12 -5 L -12 -5 Z" fill="rgba(255,255,255,0.7)"/>
+    <circle cx="0" cy="-42" r="3" fill="#FFD700">
+      <animate attributeName="r" values="3;2.5;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Рюмка 2 -->
+  <g transform="translate(400, 420)" filter="url(#glassEffect)">
+    <path d="M -18 0 L -12 -35 L 12 -35 L 18 0 Z" fill="rgba(255,255,255,0.8)"/>
+    <path d="M -12 -30 L 12 -30 L 10 -3 L -10 -3 Z" fill="rgba(255,255,255,0.7)"/>
+    <circle cx="0" cy="-37" r="2" fill="#FF6347">
+      <animate attributeName="fill" values="#FF6347;#FF0000;#FF6347" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Рюмка 3 -->
+  <g transform="translate(550, 400)" filter="url(#glassEffect)">
+    <path d="M -22 0 L -18 -45 L 18 -45 L 22 0 Z" fill="rgba(255,255,255,0.8)"/>
+    <path d="M -18 -40 L 18 -40 L 15 -4 L -15 -4 Z" fill="rgba(255,255,255,0.7)"/>
+    <circle cx="0" cy="-43" r="4" fill="#32CD32">
+      <animate attributeName="cy" values="-43;-41;-43" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Анимированные мерцающие точки -->
+  <g fill="rgba(255,255,255,0.2)">
+    <circle cx="150" cy="100" r="2">
+      <animate attributeName="r" values="2;3;2" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.4;0.1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="150" r="1.5">
+      <animate attributeName="cx" values="650;655;650" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="450" r="2.5">
+      <animate attributeName="opacity" values="0.2;0.1;0.2" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="400" r="1.8">
+      <animate attributeName="r" values="1.8;2.3;1.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Текст -->
+  <text x="400" y="520" text-anchor="middle" fill="white" font-family="Arial" font-size="28" font-weight="bold" opacity="0.9">
+    🍸 Русский Код 🍸
+  </text>
+  <text x="400" y="560" text-anchor="middle" fill="gold" font-family="Arial" font-size="16" opacity="0.8">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    Три рюмки за удачный коммит!
+  </text>
+  
+  <!-- Дополнительные анимированные блики -->
+  <g fill="rgba(255,255,255,0.1)">
+    <circle cx="150" cy="100" r="8">
+      <animate attributeName="opacity" values="0.05;0.15;0.05" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="150" r="5">
+      <animate attributeName="r" values="5;6;5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
