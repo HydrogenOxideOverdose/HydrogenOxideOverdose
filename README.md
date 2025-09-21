@@ -1,14 +1,3 @@
-<details>
-<summary>Выберите язык / Select language</summary>
-
-- [English](#english)
-- [Русский](#русский)
-
-</details>
-
----
-
-
 <details id="english">
 ## English
 
@@ -18,7 +7,6 @@
 
 </details>
 
----
 
 <details id="русский">
 ## Русский
