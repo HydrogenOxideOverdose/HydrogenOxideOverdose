@@ -1,5 +1,5 @@
 <details id="english">
-## English
+<summary><b>🇺🇸 English</b></summary>
 
 <h1 align="center">Hi there, I'm fullstack junior developer looking for work
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
@@ -9,7 +9,7 @@
 
 
 <details id="русский">
-## Русский
+<details id="русский"> <summary><b>🇷🇺 Русский</b></summary>
 
 <h1 align="center">Привет, я молодой фуллстак разработчик
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
