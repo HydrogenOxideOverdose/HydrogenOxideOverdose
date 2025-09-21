@@ -13,9 +13,16 @@
 
 <details align="center" id="русский"> <summary><b>🇷🇺 Русский</b></summary>
 
+
+![Background](rus-background.svg)
+
+
+
 <h1 align="center">Привет, я молодой фуллстак разработчик
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">Прохожу обучение в московском вузе, ищу работу</h3>
+
+
 
 </details>
 
