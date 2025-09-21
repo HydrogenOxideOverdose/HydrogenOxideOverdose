@@ -21,5 +21,7 @@
 
 
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HydrogenOxideOverdose&show_icons=true&theme=radical&custom_title=^_^&ring_color=f5ceee&show=reviews&text_bold=false)
+
 
       
