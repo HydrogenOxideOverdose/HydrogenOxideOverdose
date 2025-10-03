@@ -27,9 +27,10 @@
 
 
 
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-  <image href="rus-background.svg" height="700" width="700" />
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="50" fill="red">
+    <animate attributeName="r" values="50;30;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
 </svg>
 
 
