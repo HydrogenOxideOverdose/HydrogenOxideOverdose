@@ -12,9 +12,15 @@
   |  |  |
   | <img src="https://media.tenor.com/XLprFoJLe6kAAAAj/lain-serial-experiments-lain.gif" alt="" width="30" height="30"/> **I use** | ![Linux Mint](https://img.shields.io/badge/Linux%20Mint-87CF3E?style=for-the-badge&logo=Linux%20Mint&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white) ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Gimp Gnu Image Manipulation Program](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF) ![Vivo](https://img.shields.io/badge/Vivo-%2300BFFF.svg?style=for-the-badge&logo=vivo&logoColor=black) |
 
+
+**CONTACTS** <img src="https://i.giphy.com/0CJt0lqXbO8C2hHoa8.webp" alt="" width="45" height="45"/> [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/HydrogenOxideOverdose) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](https://t.me/Telega_dlia_raboti_s_hhru
+) 
+
+
 </details>
 
 
+-------------
 
 <details align="center" id="русский"> <summary><b>🇷🇺 Русский</b></summary>
 
@@ -31,7 +37,13 @@
   | <img src="https://media.tenor.com/XLprFoJLe6kAAAAj/lain-serial-experiments-lain.gif" alt="" width="30" height="30"/>  **Я  использую**  |  ![Linux Mint](https://img.shields.io/badge/Linux%20Mint-87CF3E?style=for-the-badge&logo=Linux%20Mint&logoColor=white) ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white) ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Gimp Gnu Image Manipulation Program](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF) ![Vivo](https://img.shields.io/badge/Vivo-%2300BFFF.svg?style=for-the-badge&logo=vivo&logoColor=black) |
 
 
+**МОИ КОНТАКТЫ** <img src="https://i.giphy.com/0CJt0lqXbO8C2hHoa8.webp" alt="" width="45" height="45"/> [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/HydrogenOxideOverdose) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](https://t.me/Telega_dlia_raboti_s_hhru
+) 
+
 </details>
+
+
+-------------
 
 
 
