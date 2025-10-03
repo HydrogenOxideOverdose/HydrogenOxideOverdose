@@ -146,9 +146,9 @@
   </g>
 
   <!-- Second animated text -->
-  <g transform="translate(400, 320)" filter="url(#textGlow)">
+  <g transform="translate(370, 320)" filter="url(#textGlow)">
     <text x="0" y="0" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="28" font-weight="bold" opacity="0">
-      I'M A FULLSTACK DEVELOPER
+      COMRADE
       <animate attributeName="opacity" values="0;1" dur="1s" begin="2.5s" fill="freeze"/>
       <animate attributeName="fill" values="#FFFFFF;#FFD700;#FFFFFF" dur="3s" begin="3s" repeatCount="indefinite"/>
     </text>
