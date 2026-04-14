@@ -54,3 +54,10 @@
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=pinkish)
 
 
+
+
+
+## Пивка купи мне
+<p align="center">
+    <a href="https://buymeacoffee.com/hydrogenoxideoverdose"><img src="https://i.imgur.com/zE8Y8Dp.png"></a>
+</p>
