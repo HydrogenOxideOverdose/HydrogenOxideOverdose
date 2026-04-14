@@ -58,6 +58,6 @@
 
 
 ## Пивка купи мне
-<p align="center">
+<p align="left">
     <a href="https://buymeacoffee.com/hydrogenoxideoverdose"><img src="https://i.imgur.com/zE8Y8Dp.png"></a>
 </p>
