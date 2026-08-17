@@ -3,8 +3,6 @@
 <details id="english">
 <summary><b>🇺🇸 English</b></summary>
 
-  <img src="en-header.svg" width="100%" height="100%">
-
   | 💾 **Databases** | ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) |
   | :------------: | :------------: |
   | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="20" height="20"/> **Python** | ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) |
@@ -25,8 +23,6 @@
 -------------
 
 <details align="center" id="русский"> <summary><b>🇷🇺 Русский</b></summary>
-
-  <img src="rus-background.svg" width="100%" height="100%">
 
 
   |   💾 **Базы данных**  |  ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)  ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)  |
@@ -53,11 +49,3 @@
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?theme=pinkish)
 
-
-
-
-
-## Пивка купи мне
-<p align="left">
-    <a href="https://buymeacoffee.com/hydrogenoxideoverdose"><img src="https://i.imgur.com/zE8Y8Dp.png"></a>
-</p>
